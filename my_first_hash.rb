@@ -45,5 +45,4 @@ def adding
 
  # When adding to a key value pair to a hash, the syntax is hash_name[key] = value
   # return the shipping_manifest hash below
- shipping_manifest
 end
