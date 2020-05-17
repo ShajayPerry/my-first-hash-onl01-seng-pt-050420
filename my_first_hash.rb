@@ -37,11 +37,13 @@ def adding
                   "oil paintings" => 3
                  }
   # add 2 muskets to the shipping_manifest hash below
- shipping_manifest["muskets2"] = "value2" 
+ shipping_manifest["muskets"] = "value2" 
 
 
   # add 4 gun powder to the shipping_manifest hash below
- shipping_manifest["gun powder4"] = "value4"  
+ shipping_manifest["gun powder"] = "value4" 
+ 
+ shipping_manifest
 
  # When adding to a key value pair to a hash, the syntax is hash_name[key] = value
   # return the shipping_manifest hash below
