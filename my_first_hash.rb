@@ -43,7 +43,7 @@ def adding
   # add 4 gun powder to the shipping_manifest hash below
  shipping_manifest["gun powder" => 4] = "value4"
 
-
+ # When adding to a key value pair to a hash, the syntax is hash_name[key] = value
   # return the shipping_manifest hash below
  shipping_manifest
 end
